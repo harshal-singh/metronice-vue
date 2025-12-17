@@ -1,0 +1,47 @@
+<!doctype html>
+<html class="h-full" dir="ltr" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link href="media/app/favicon.ico" rel="shortcut icon" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+			rel="stylesheet" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Metronic Tailwind Vue</title>
+		<link rel="stylesheet" href="src/index.css" />
+	</head>
+	<body
+		class="select-none antialiased flex h-full text-base text-foreground bg-background demo1 kt-sidebar-fixed kt-header-fixed">
+		<!-- Theme Mode -->
+		<script>
+			const defaultThemeMode = 'light'; // light|dark|system
+			let themeMode;
+
+			if (document.documentElement) {
+				if (localStorage.getItem('kt-theme')) {
+					themeMode = localStorage.getItem('kt-theme');
+				} else if (
+					document.documentElement.hasAttribute('data-kt-theme-mode')
+				) {
+					themeMode =
+						document.documentElement.getAttribute('data-kt-theme-mode');
+				} else {
+					themeMode = defaultThemeMode;
+				}
+
+				if (themeMode === 'system') {
+					themeMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+						? 'dark'
+						: 'light';
+				}
+
+				document.documentElement.classList.add(themeMode);
+			}
+		</script>
+		<!-- End of Theme Mode -->
+		<div id="app"></div>
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>
