@@ -9,12 +9,14 @@
 					<img class="h-[28px] max-w-none" src="/media/app/mini-logo.svg" />
 				</a>
 				<div class="flex flex-col gap-4 md:gap-8">
-					<h3 class="text-md md:text-2xl font-semibold">Lorem, ipsum dolor.</h3>
-					<h1 class="text-2xl md:text-5xl font-black">
+					<h3 class="text-md md:text-2xl font-semibold dark:text-background">
+						Quality Management Services
+					</h3>
+					<h1 class="text-2xl md:text-5xl font-black dark:text-background">
 						Business Management System
 					</h1>
 					<div
-						class="text-sm md:text-base font-medium text-secondary-foreground">
+						class="text-sm md:text-base font-medium text-secondary-foreground dark:text-background">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
 						velit, vulputate eu pharetra nec, mattis ac neque.
 					</div>

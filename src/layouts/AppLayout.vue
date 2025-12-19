@@ -18,7 +18,9 @@ import Sidebar from './components/Sidebar.vue';
 			<!-- End of Header -->
 			<!-- Content -->
 			<main class="grow pt-5" id="content" role="content">
-				<RouterView />
+				<div class="kt-container-fluid">
+					<RouterView />
+				</div>
 			</main>
 			<!-- End of Content -->
 			<!-- Footer -->
