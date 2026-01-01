@@ -18,7 +18,7 @@
 		"@babel/core": "^7.27.1",
 		"@babel/preset-env": "^7.27.1",
 		"@eslint/js": "^9.25.1",
-		"@keenthemes/ktui": "^1.0.11",
+		"@keenthemes/ktui": "^1.1.2",
 		"@popperjs/core": "^2.11.8",
 		"@tailwindcss/cli": "^4.1.5",
 		"@tailwindcss/forms": "^0.5.10",
@@ -48,7 +48,7 @@
 		"webpack-merge-and-include-globally": "^2.3.4"
 	},
 	"devDependencies": {
-		"@keenthemes/ktui": "^1.0.8",
+		"@keenthemes/ktui": "^1.1.2",
 		"@popperjs/core": "^2.11.8",
 		"@vitejs/plugin-vue": "^5.2.3",
 		"@vue/tsconfig": "^0.7.0",
