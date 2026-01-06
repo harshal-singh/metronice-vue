@@ -18,7 +18,7 @@
 		"@babel/core": "^7.27.1",
 		"@babel/preset-env": "^7.27.1",
 		"@eslint/js": "^9.25.1",
-		"@keenthemes/ktui": "^1.0.11",
+		"@keenthemes/ktui": "^1.1.2",
 		"@popperjs/core": "^2.11.8",
 		"@tailwindcss/cli": "^4.1.5",
 		"@tailwindcss/forms": "^0.5.10",
@@ -40,6 +40,7 @@
 		"terser-webpack-plugin": "^5.3.14",
 		"ts-loader": "^9.5.2",
 		"typescript": "^5.8.3",
+		"vanilla-calendar-pro": "^3.0.5",
 		"vue": "^3.5.13",
 		"vue-router": "^4.6.4",
 		"webpack": "^5.99.7",
@@ -47,7 +48,7 @@
 		"webpack-merge-and-include-globally": "^2.3.4"
 	},
 	"devDependencies": {
-		"@keenthemes/ktui": "^1.0.8",
+		"@keenthemes/ktui": "^1.1.2",
 		"@popperjs/core": "^2.11.8",
 		"@vitejs/plugin-vue": "^5.2.3",
 		"@vue/tsconfig": "^0.7.0",
